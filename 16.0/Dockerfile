@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM python:3.10.15-bullseye
 MAINTAINER Odoo S.A. <info@odoo.com>
 
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
