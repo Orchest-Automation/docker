@@ -102,3 +102,5 @@ USER odoo
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["odoo"]
+
+LABEL org.opencontainers.image.source=https://github.com/Orchest-Automation/docker
